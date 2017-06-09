@@ -1,6 +1,6 @@
 ## Ignore for posting PDF only
-*.tex
-*.cls
+#*.tex
+#*.cls
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
