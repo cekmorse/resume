@@ -38,6 +38,7 @@
 \usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry} 
 
 % Set font face
+%\renewcommand{\sfdefault}{phv}
 \usepackage{fontspec}
 \setmainfont[SmallCapsFeatures={Renderer=Basic},
 Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
