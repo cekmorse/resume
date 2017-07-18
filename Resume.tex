@@ -16,115 +16,168 @@
 
 % Set applicant's personal data for header
 \name{Keith H. Morse}
-\address{2188 W. Sonoma Drive \linebreak Meridian, ID 83642}
-\contacts{(208) 220-6035~\Mobilefone \linebreak cekmorse@gmail.com~\Email}
+\address{633 W. Woodbury Drive \linebreak Meridian, ID 83646}
+\contacts{(208) 220-6035 \linebreak cekmorse@gmail.com}
+
+\newcommand{\myVspace}{\vspace{5pt}}
+\newcommand{\smallspace}{\vspace{2pt}}
+\newcommand{\compDesc}[1]{
+	\textbf{\textit{#1}}
+	\smallspace\\
+}
+\newcommand{\tools}[1]{
+	\textit{Tools used: }#1
+	\smallspace
+}
 
 \begin{document}
+
+% Print the header
+\makeheader
+%%%% SUMMARY
+\begin{cvsection}{Summary}
+	\begin{cvsubsection}{}{}{}
+		\begin{itemize}
+			\item Goal oriented; providing the client the desired design, meeting all regulatory requirements, and avoiding gold plating.
+			\item Proactive communicator; keeping the client and fellow engineers aware of any changes, requirements, and roadblocks.
+			\item Technology savvy; promoting use of tools that work for the end goal, whether they be legacy or cutting edge.
+			\item U.S. Air Force veteran with extensive leadership and team player experience.
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+%%%% SUMMARY
+%%%% RELEVANT WORK HISTORY
+\begin{cvsection}{Relevant Work History}	
+	\begin{cvsubsection}{Civil Engineer}{WHPacific}{2012 - 2014}
+		\compDesc{Regional engineering firm focused on enhancing client satisfaction through creative, exceptional service.}
+		\tools{AutoCAD CIVIL 3D 2009-2014, ArcGIS, Bentley StormCAD, USACE HEC-RAS, EPA LT1ESWTR and LT2ESWTR, Microsoft Office, Microsoft Project, corporate PM tools, \textsf{R} programming language, PMI concepts.}
+		\begin{itemize}
+			\item Managed a small team to design a small half-million gallon-per-day, seasonally operated, water treatment plant incorporating the contact basin and clear well under the main plant.  Designed the pumping and treatment systems.  Design completed on time and on budget, meeting all of the requirements of the client and regulatory agencies.
+
+			\smallspace
+			\item Designed the installation of an emergency chlorine gas scrubber I selected for a water treatment plant.
+			
+			\smallspace
+			\item Designed the expansion of chemical storage facilities at a water treatment plant to include spill protection, connection to existing facilities, and consideration for plant employee safety.
+			
+			\smallspace
+			\item Analyze routes for multiple proposed pipelines to include estimates for excavation, material, and work.
+			
+			\smallspace
+			\item Used AutoCAD CIVIL 3D tools to perform grading and pipe network design for a 64-acre multi-use, municipal park.  Considered adjacent existing roadways and irrigation ditches and associated rights-of-way.  Use of grading and pipe network tools reduced rework time when the design was changed.
+			
+			\smallspace
+			\item Design a simple, modular system to insulate building sanitary sewer systems for a new systems being installed in multiple villages in North Slope Borough, Alaska.  Design was enthusiastically accepted by the engineering and construction teams for it's reduced cost and lowered impact on workers performing maintenance during winter and was incorporated into other projects within the Borough.
+			
+			\smallspace
+			\item Investigate appropriate use of AutoCAD tools when creating designs of varying complexity.  Communicated benefits and limitations of these tools to senior engineers unfamiliar with them.
+			
+			\smallspace
+			\item Create simple javascript application to calculate and present above ground, arctic, sewer system preliminary design.
+			
+			\smallspace
+			\item Extensively used \textsf{R} to rapidly prototype possible potable water sanitation design permutations based on EPA requirements.  Drastically reduced the time between design parameter determination and final design decision.
+			
+			\smallspace
+			\item Converted construction documents originally written in Microsoft Word to \LaTeX. Improved format consistency and reduced editing/maintenance time while enforcing compliance with Construction Specification Institute standards.
+		\end{itemize}
+	\end{cvsubsection}
+
+	\begin{cvsubsection}{Graduate Research Assistant}{Colorado State University}{2010 - 2011}
+		\compDesc{Public research and land grant university studying agricultural, natural, and environmental phenomena.}
+		\tools{Microsoft Office, \textsf{R} Language and Computing Environment, ArcGIS, \LaTeX, Surfer}
+		\begin{itemize}
+			\item Use \textsf{R} statistical programming language to develop multiple deterministic and stochastic models using natural, spatial, and temporal variables and their associated uncertainties to estimate daily groundwater return volume and dissolved contaminant concentration.  Replaced and expanded scope and depth of hard to update, oversimplified, Excel spreadsheet models. Text and \textsf{R} model code is available for review on https://github.com/cekmorse.
+			
+			\smallspace
+			\item Wrote quarterly and annual reports to state agencies detailing water quality sampling efforts and results to include graphical surface representations of spatial and temporal variability.
+			
+			\smallspace
+			\item Prepare for and execute multiple high volume water sample events. Perform suspended sediment, river bed sediment, and cross section surveys of multiple river cross sections.
+			
+			\smallspace
+			\item  Aggregate and analyze water quality sample results with respect to spatial and temporal variability.  Analyze sediment sample results to determine necessity of further analysis.
+			
+			\smallspace
+			\item Determine proper tools and techniques for sampling suspended and bed sediment. Determine likelihood of botanical impact on water quality parameters of interest.
+			
+			\smallspace
+			\item Created automated scripts generating multiple types of graphical and tabular results using common formatting parameters with provisions for integrating into a large, multi-chapter \LaTeX\ document.
+		
+		\end{itemize}
+	\end{cvsubsection}
 	
-	% Print the header
-	\makeheader
-	%%%% SUMMARY
-	\begin{cvsection}{Summary}
-		\begin{cvsubsection}{}{}{}
-			\begin{itemize}
-				\item Full Stack Developer with 4 years experience including exposure to Java, R, TypeScript, JavaScript, HTML, CSS
-				\item Advocate for sound coding practices, Test-Driven Development, and continuous cross-discipline communication.
-				\item  Passionate about solving problems and learning new technology. For many years, my friends and I have met for a weekly \enquote{code-night} to socialize, hack on new problems, learn new languages, technologies, and frameworks.
-				\item Applied PMI practices of scope, schedule, and budget management to multiple projects.
-				\item Love to work as a force multiplier; getting the job done even though the task may not be in my field of expertise.
-				\item Extensive military leadership training, which is well suited to a corporate and team environment, has allowed me to mentor others to be stewards of their resources and promote personal growth both in and out of the organization.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	%%%% SUMMARY
-	%%%% RELEVANT WORK HISTORY
-	\begin{cvsection}{Relevant Work History}
-		\begin{cvsubsection}{Full Stack Developer}{Six Actual}{2014 - 2017}
-			End-to-end software firm specializing in custom web, cloud based, and mobile solutions for private and public entities.
-			\vspace{5pt}
-			\begin{itemize} 			
-				\item Used JUnit TestRule concept to re-write how integration tests are written and run.  Achieved a 400\% test coverage increase, 50\% test code-base reduction, and significant improvement in readability and visibility.  Reduced costs due to test code initial development and re-work.
-				\\
-				\item Developed full support of client's access to geospatial, precision agriculture data in a MongoDB via Hibernate and QueryDSL through REST endpoints, supported by appropriate business logic accessing a MySQL database.
-				\\
-				\item Created REST frameworks with Swagger annotations producing XML, JSON, geo-spatial, and binary content providing a variety of usage patterns including: asynchronous calls to distributed micro-services (queue-aware and consumer transparent methodologies), multi-tenant capabilities, fully version history, deletion aware, and broad operational and management API capabilities.
-				\\
-				\item Created multiple portlets for a large, complex, GWT/GXT web application and wrote the supporting server-side business logic to retrieve and display data from multiple MySQL tables simultaneously.
-				\\
-				\item Developed internal, web-based, project management and cost tracking application utilizing MySQL, Spring Data, Spring Web MVC, and Angular4 to include full unit and integration testing with Karma and Protractor.
-				\\
-				\item Responsible for all aspects of data modeling, persistence, and query operation.  Familiar with the trade-offs between traditional SQL RDBMS and NoSQL systems. Provided meaningful data sets for solid unit test coverage in both systems.
-				\\
-				\item Modified Maven files in an aggregator project by using a dedicated project module to contain and distribute dependencies and versions to ensure development consistency.  Worked with architects and senior engineers to determine the appropriate dependency versions and their inter-dependencies.
-				\\
-				\item Worked with architects and senior engineers after hours to develop an open-source framework to be uses as a springboard for developing projects within the company.  Framework included security, messaging, unit and integration testing, MySQL database, Java 8 server side, and Angular4 client side components.  Increased ability to rapidly prototype a project concept for marketing purposes and decreased project development startup time.
-			\end{itemize}
-		\end{cvsubsection}
-		
-		\clearpage
-		
-		\begin{cvsubsection}{Civil Engineer, Water Resources}{WHPacific}{2012 - 2014}
-			Multi-sector, regional engineering firm focused on enhancing client satisfaction through creative, exceptional service.
-			\vspace{5pt}
-			\begin{itemize}
-				\item Perform calculations and analysis of data and designs utilizing industry best practices and industry standard tools.
-				\\
-				\item Use problem solving skills to determine the best design alternative considering construction and maintenance cost.
-				\\
-				\item Create simple javascript application to calculate and present preliminary design for above ground, arctic, sewer system.
-				\\
-				\item Extensively used \textsf{R} to rapidly prototype possible potable water sanitation design permutations based on EPA requirements.  Drastically reduced the time between design parameter determination and final design decision.
-				\\
-				\item Converted very large construction documents originally written in Microsoft Word to \LaTeX. Improved format consistency and reduced editing/maintenance time while enforcing compliance with Construction Specification Institute standards.
-				\\
-				\item Managed a small team to design a small half-million gallon-per-day, seasonally operated, water treatment plant.
-			\end{itemize}
-		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Graduate Research Assistant}{Colorado State University}{2009 - 2011}
-			Public research and land grant university responsible for studying agricultural, natural, and environmental phenomena.
-			\vspace{5pt}
-			\begin{itemize}
-				\item Use \textsf{R} to develop multiple deterministic and stochastic models using natural, spatial, and temporal variables and their associated uncertainties to estimate daily groundwater return volume and dissolved contaminant concentration.  Replaced and expanded scope and depth of hard to update, oversimplified, Excel spreadsheet models.
-				\\
-				\item Created automated scripts generating multiple types of graphical and tabular results using common formatting parameters with provisions for integrating into a large, multi-chapter \LaTeX\ document.
-				\\
-				\item Wrote quarterly and annual reports to state agencies detailing water quality sampling efforts and results to include graphical surface representations of spatial and temporal variability.
-			\end{itemize}
-		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Engineer Intern, Geotechnical}{Engineering Analytics}{2009 - 2010}
-			Civil-Geotechnical consulting firm combining engineering and scientific knowledge with sound project management.
-			\vspace{5pt}
-			\begin{itemize}
-				\item Compiled and summarized geotechnical reports to assist senior/principal engineers in preparing expert witness testimony in support of design and construction litigation.
-				\\
-				\item Independently collect and document soil samples to support foundation design and remediation decisions. 
-				\\
-				\item Create a first-of-its-kind Excel VBA analysis to determine the appropriate depth to install micropiles for foundation remediation efforts on soils with high swell potential.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	%%%% RECENT WORK HISTORY
-	%%%% VOLUTEER	
-	\begin{cvsection}{Education}
-		\begin{cvsubsection}{}{}{}
-			\begin{itemize}
-				\item \textbf{Civil Engineering, B.S.}, University of Central Florida, 2008
-				\item \textbf{Fundamentals of Engineering Exam}, NCEES, 2008
-				\item \textbf{Vehicle Maintenance, A.A.S.}, Community College of the Air Force, 2003
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	%%%% EDUCATION
-	%%%% VOLUNTEER WORK
-	\begin{cvsection}{Volunteer Work}
-		\begin{cvsubsection}{}{}{}
-			\begin{itemize}
-				\item Youth softball assistant coach teaching all aspects of play (except pitching),  encouraging the love of a sport.
-				\item Informal coding coach for a small group of local kids, focusing on basic skills using Minecraft and Code Combat.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	%%%% VOLUNTEER WORK
+	\begin{cvsubsection}{Engineer Intern, Geotechnical}{Engineering Analytics}{2009 - 2010}
+		\compDesc{Civil-Geotechnical firm combining engineering and scientific knowledge and sound project management.}
+		\tools{GEO-SLOPE SLOPE/W and VADOSE/W, MS Office, MS Excel VBA, MS Word VBA, MATLAB.}
+		\begin{itemize}
+			\item Compiled and summarized geotechnical reports to assist senior/principal engineers in preparing expert witness testimony in support of design and construction litigation.
+
+			\smallspace
+			\item Independently collect and document soil samples from test pits and bore holes to include visual color and gradation analysis and preparation for swell/consolidation and other tests. 
+			
+			\smallspace
+			\item Create a first-of-its-kind Excel VBA analysis to determine the appropriate depth to install micropiles for foundation remediation efforts on soils with high swell potential.
+			
+			\smallspace
+			\item Use SLOPE/W to perform slope stability for open-pit mine closure design, ensuring safety of nearby major roadway.
+			
+			\smallspace
+			\item Design new and analyze existing design of MSE retaining walls in accordance with Colorado DOT guidance.
+			
+			\smallspace
+			\item Perform analysis of private and public roadway to include analysis of design, as-built, and existing condition surveys, and concrete and asphalt core lab analysis results.
+			
+			\smallspace
+			\item Prepare level and site survey reports to include measurements, analysis, and photographs. 
+		\end{itemize}
+	\end{cvsubsection}
+
+\end{cvsection}
+%%%% RELEVANT WORK HISTORY
+%%%% RECENT WORK HISTORY
+\begin{cvsection}{Recent Work History}
+	\begin{cvsubsection}{Full Stack Developer}{Six Actual}{2014 - 2017}
+		\compDesc{Software firm specializing in custom web, cloud based, and mobile solutions for private and public entities.}
+		\tools{Java, TypeScript, JavaScript, Spring, AngularJS, Angular2+, JUnit, Karma, QueryDSL, Spring Data, Hibernate, MongoDB, MySQL, SQLite, REST, J2EE, XML.}
+		\begin{itemize}  
+			\item Created multiple portlets for a large, complex, web application and wrote the supporting server-side business logic to retrieve and display data from multiple MySQL tables simultaneously.
+			\smallspace
+			\item Developed internal, web-based, project management and cost tracking application utilizing multiple technologies and including full unit and integration testing.
+			\smallspace
+			\item Modified Maven files in an aggregator project by using a dedicated project module to contain and distribute dependencies and versions to ensure development consistency.  Worked with architects and senior engineers to determine the appropriate dependency versions and their inter-dependencies.
+			\smallspace
+			\item Worked with architects and senior engineers after hours to develop an open-source framework to be uses as a springboard for developing projects within the company.  Framework included security, messaging, unit and integration testing, database, server side, and client side components.  Increased ability to rapidly prototype a project concept for marketing purposes and decreased project development startup time.
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+%%%% RECENT WORK HISTORY
+%%%% EDUCATION	
+\begin{cvsection}{Education}
+	\begin{cvsubsection}{}{}{}
+		\begin{itemize}
+			\item \textbf{Civil Engineering, B.S.}, University of Central Florida, 2008
+			\item \textbf{Vehicle Maintenance, A.A.S.}, Community College of the Air Force, 2003
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+%%%% EDUCATION
+%%%% LICENSURE
+\begin{cvsection}{License}
+	\begin{cvsubsection}{}{}{}
+		\textbf{Engineer Intern}, Florida License Number 1100016322
+	\end{cvsubsection}
+\end{cvsection}
+%%%% LICENSURE
+%%%% VOLUNTEER WORK
+\begin{cvsection}{Volunteer Work}
+	\begin{cvsubsection}{}{}{}
+		\begin{itemize}
+			\item Youth softball assistant coach teaching all aspects of play (except pitching),  encouraging the love of a sport.
+			\item Informal coding coach for a small group of local kids, focusing on basic skills using Minecraft and Code Combat.
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+%%%% VOLUNTEER WORK
+
 \end{document}
